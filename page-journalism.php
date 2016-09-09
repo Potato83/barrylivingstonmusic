@@ -3,7 +3,7 @@
 Template Name: Journalism
  */
 get_header(); 
-//$testy = get_field('testy');
+
 ?>
 
 <section class="journalism">
@@ -11,21 +11,14 @@ get_header();
 </section>
 
 <div class="container-main">
-	<!-- <h1>hallo</h1> -->
-	<?php	
-		// if($testy){	
-		// 	$length = count($testy);				
-
-		// 	for ($i=0; $i < $length; $i++) { 
-		// 		if($i%2==0){
-		// 				echo '<p>' . $testy[$i]['texty'] . '</p>';
-		// 			}
-		// 		if($i%2==1){
-		// 			echo '<p>' . $testy[$i]['texty'] . ' - the even ones are special</p>';
-		// 		}															
-		// 	}
-		// }
-	?>
+	
+		
+	<?php while ( have_posts() ) : the_post(); ?>
+						
+		<?php the_content(); ?>
+		
+	<?php endwhile; // end of the loop ?>
+	
 	
 		
 </div><!-- .container-main -->
