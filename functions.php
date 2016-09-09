@@ -170,7 +170,7 @@ function hide_editor() {
         $post_id = $_GET['post'] ? $_GET['post'] : $_POST['post_ID'] ;
         if( !isset( $post_id ) ) return;
         $template_file = get_post_meta($post_id, '_wp_page_template', true);
-    if($template_file == 'page-home.php' || $template_file == 'page-about.php' || $template_file == 'page-reviews.php') { // edit the template name
+    if($template_file == 'page-home.php' || $template_file == 'page-about.php' || $template_file == 'page-reviews.php' || $template_file == 'page-events.php') { // edit the template name
         remove_post_type_support('page', 'editor');
     }
 }
