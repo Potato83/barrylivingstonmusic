@@ -5,7 +5,8 @@ $('.event-choose').each(function(){
 	//var deSelect = show + '-x';
 	$butt.click(function(){
 		//$('.event-choose').toggleClass('hi-light');
-		//alert(toHide);
+		// alert(toHide);
+		// $(this).toggleClass('active');
 		$(toHide).fadeOut(400, function(){
 			$(show).fadeIn(400).removeClass('hide');
 			//alert(show);
@@ -14,6 +15,8 @@ $('.event-choose').each(function(){
 	
 	});
 });
+
+
 
 $('#join a').on('click', function(){
 	$('.signup').fadeIn(400).toggleClass('hide');

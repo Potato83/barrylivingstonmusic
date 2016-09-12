@@ -761,6 +761,8 @@ a.event:visited{
 	font-size: 14px;
 }
 
+
+
 .event-choose:hover{
 	color: #F2A03F;
 }
@@ -878,4 +880,13 @@ footer a:hover,
 	footer{
 		display: none !important;
 	}
+}
+
+
+a.journo,
+a.journo:visited{
+	color: #fff;
+	background: #2E6DA1;
+	padding: 10px;
+	border-radius: 5px;
 }

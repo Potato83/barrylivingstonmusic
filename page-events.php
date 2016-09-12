@@ -20,10 +20,21 @@ get_header();
 		</div><!-- col-md -->	
 	</div><!-- row -->
 
-	<div class="btn-group" role="group">
-  <button type="button" class="btn btn-default event-choose" id="upco">Upcoming</button>
-  <button type="button" class="btn btn-default event-choose" id="past">Past</button>
+	<div class="btn-group" role="group" data-toggle="buttons">
+  <!-- <button type="button" class="btn btn-default event-choose active" id="upco">Upcoming</button>
+  <button type="button" class="btn btn-default event-choose" id="past">Past</button> -->
 	</div>
+
+	<!-- TEST -->
+	<div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary active event-choose" id="upco">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Upcoming
+  </label>
+  <label class="btn btn-primary event-choose" id="past">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Past
+  </label>
+  
+</div>
 
 	<div class="row">
 		<div class="upco past-hide events">

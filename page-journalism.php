@@ -11,7 +11,8 @@ get_header();
 </section>
 
 <div class="container-main">
-	
+	<h1 class="events-header">Broadcasting &amp; Journalism</h1>
+	<div class="padder"></div>
 		
 	<?php while ( have_posts() ) : the_post(); ?>
 						
