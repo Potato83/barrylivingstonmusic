@@ -446,19 +446,13 @@ body, h1, h2, h3, p, ul{
 section{
 	background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
 	background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
-	/*background: transparent;*/
-	/*background: #ccc;*/
 	background-size: cover;
-	/*background: blue;*/
 	height: 100%;
 	height: 100vh;
 	min-height: 100vh;
 	width: 100%;
-	/*display: table;*/
 	position: fixed;
-	/*opacity: 0.5;*/
 	z-index: 200;
-
 }
 
 button:focus{
@@ -631,6 +625,49 @@ input[type="submit"]{
 	}
 	.navbar-collapse{
 		background: #0B2B54;
+	}
+}
+
+/* iPad fix */
+
+@media(max-width: 768px){
+	#menu-custom-menu > li > a{
+		/*background: red;*/
+		padding: 10px;
+		font-size: 14px;
+	}
+	.navbar-wrapper{
+		/*background: red !important;*/
+		height: 50px;
+	}
+	section{
+		background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
+		background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
+		background-size: cover;
+		height: 1024px;
+		height: 100vh;
+		/*min-height: 1024px;*/
+		min-height: 100vh;
+		width: 768px;
+		width: 100vw;
+		position: fixed;
+		z-index: 200;
+	}
+}
+
+@media(max-width: 1024px){
+	section{
+		background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
+		background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
+		background-size: cover;
+		height: 768px;
+		height: 100vh;
+		/*min-height: 768px;*/
+		min-height: 100vh;
+		width: 1024px;
+		width: 100vw;
+		position: fixed;
+		z-index: 200;
 	}
 }
 
