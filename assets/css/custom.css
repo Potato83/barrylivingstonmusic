@@ -428,10 +428,12 @@ th {
 
 /* Custom */
 
-body{
+body, html{
 	overflow-x: hidden;
-	background: #0E3B67;
-	background: #0E3B67 !important;
+	/*background: #0E3B67;*/
+	/*background: #0E3B67 !important;*/
+	background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
+	background-size: cover;
 }
 
 body, h1, h2, h3, p, ul{
@@ -444,15 +446,16 @@ body, h1, h2, h3, p, ul{
 }
 
 section{
-	background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
-	background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
-	background-size: cover;
+	/*background: url('../img/cover.jpeg') 0 50% no-repeat fixed;*/
+	/*background: url('../img/lake.jpeg') 0 50% no-repeat fixed;*/
+	/*background-size: cover;*/
 	height: 100%;
 	height: 100vh;
 	min-height: 100vh;
 	width: 100%;
 	position: fixed;
 	z-index: 200;
+	background: transparent;
 }
 
 button:focus{
@@ -641,8 +644,8 @@ input[type="submit"]{
 		height: 50px;
 	}
 	section{
-		background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
-		background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
+		/*background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
+		background: url('../img/lake.jpeg') 0 50% no-repeat fixed;*/
 		background-size: cover;
 		height: 1024px;
 		height: 100vh;
@@ -657,8 +660,8 @@ input[type="submit"]{
 
 @media(max-width: 1024px){
 	section{
-		background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
-		background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
+		/*background: url('../img/cover.jpeg') 0 50% no-repeat fixed;
+		background: url('../img/lake.jpeg') 0 50% no-repeat fixed;*/
 		background-size: cover;
 		height: 768px;
 		height: 100vh;
