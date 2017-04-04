@@ -428,17 +428,45 @@ th {
 
 /* Custom */
 
-body, html{
-	overflow-x: hidden;
+html{
+	
 	/*background: #0E3B67;*/
-	/*background: #0E3B67 !important;*/
-	background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
-	background-size: cover;
+	
+	/*background: url('../img/lake.jpeg') 0 50% no-repeat fixed;
+	background-size: cover;*/
+	/*height: 100%;*/
+	/*background: #0E3B67 ;*/
 }
 
-body, h1, h2, h3, p, ul{
+html, body{
+	background: red;
+	background: url('../img/lake.jpeg') 0 30% no-repeat fixed;
+	background-size: cover;
+	overflow-x: hidden;
+	/*opacity: 0.2;*/
+	/*min-height: 100vh;*/
+}
+
+body{
+	height: 50px;
+	/*background: #0E3B67 !important;*/
+	/*background: url('../img/lake.jpeg') 0 50% no-repeat fixed;*/
+	background: red;
+	/*background-size: cover;*/
+	/*position: fixed;*/
+	/*z-index: 1000;*/
+	/*top: 0vh;*/
+	/*position: fixed;*/
+}
+
+html{
+	min-height: 100vh;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, p, ul{
 	font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
-	color: white;	
+	color: #fff;	
 }
 
 .logged-in .navbar-fixed-top {
@@ -449,13 +477,19 @@ section{
 	/*background: url('../img/cover.jpeg') 0 50% no-repeat fixed;*/
 	/*background: url('../img/lake.jpeg') 0 50% no-repeat fixed;*/
 	/*background-size: cover;*/
-	height: 100%;
-	height: 100vh;
-	min-height: 100vh;
+	/*height: 100%;
+	height: 100vh;*/
+	/*min-height: 100vh;
+	min-height: 100%;*/
 	width: 100%;
 	position: fixed;
 	z-index: 200;
 	background: transparent;
+	/*background: red;*/
+	/*border-bottom: 200px solid blue;
+	box-sizing: border-box;*/
+	/*padding-bottom: 200px !important;*/
+
 }
 
 button:focus{
